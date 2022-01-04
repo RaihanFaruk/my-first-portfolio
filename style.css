@@ -57,12 +57,12 @@ h2 {
 }
 #re {
   border-left: 7px solid;
-  border-image: linear-gradient(blue cyan);
+  border-image: linear-gradient(blue, cyan);
   border-image-slice: 1;
 }
 #gree {
   border-left: 7px solid;
-  border-image: linear-gradient(red orange);
+  border-image: linear-gradient(red, orange);
   border-image-slice: 1;
 }
 footer p {
@@ -71,4 +71,7 @@ footer p {
   margin: 0;
   padding: 10px;
   color: white;
+}
+.exper {
+  padding-left: 10px;
 }
